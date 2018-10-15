@@ -54,8 +54,8 @@ export default class AggregatedMetrics extends Component {
             totalNum: stats.totalNum,
             totalArea: stats.totalArea,
             totalTime: stats.totalTime,
-            productivity: productivity
-    
+            productivity: productivity,
+            key: account.id
         };
 
         data.push(child);
@@ -83,7 +83,8 @@ export default class AggregatedMetrics extends Component {
             totalNum: stats.totalNum,
             totalArea: stats.totalArea,
             totalTime: stats.totalTime,
-            productivity: productivity
+            productivity: productivity,
+            key: account.id
 
         };
 

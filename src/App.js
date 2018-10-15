@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React,{Component} from 'react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -8,7 +8,7 @@ import {getTreeStructure} from './services/accountService';
 import AccountTree from './components/account_tree';
 import StatisticsViewer from './components/statistics_viewer';
 
-import { Layout, Menu, Breadcrumb, Icon , Divider} from 'antd';
+import { Layout, Menu } from 'antd';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -92,6 +92,7 @@ class App extends Component {
                 style={{ lineHeight: '64px' }}
               >
                 <Menu.Item key="1" >Cleaning</Menu.Item>
+                <Menu.Item key="2" >SomethingElse</Menu.Item>
               </Menu>              
             </Header>
             <Content style={{ padding: '0 50px' }}>

@@ -6,10 +6,13 @@
     "@antv/data-set": "^0.9.6",
     "antd": "^3.10.1",
     "bizcharts": "^3.2.4",
+    "history": "^4.7.2",
     "install": "^0.12.1",
     "npm": "^6.4.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.0.4"
   },
   "scripts": {

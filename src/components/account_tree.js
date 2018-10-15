@@ -35,6 +35,7 @@ export default class AccountTree extends Component {
             accounts.map(
                 account => 
                 <Tree
+                    key={account.id}
                     showIcon
                     defaultExpandAll
                     defaultSelectedKeys= {["0"]}
